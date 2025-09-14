@@ -1,0 +1,16 @@
+import React from 'react'
+import './Header.css';
+
+const Header = () => {
+  return (
+    <div className='header'>
+      <div className='header-content'>
+        <h2>Order your favourite food here</h2>
+        <p>Experience the best food from the comfort of your home. Order now and enjoy!</p>
+        <button className='order-btn'>View Menu</button>
+      </div>
+    </div>
+  )
+}
+
+export default Header
